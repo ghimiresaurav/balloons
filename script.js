@@ -19,7 +19,7 @@ function create(){
     ball.style.backgroundColor = colors[randNum(0, 6)];
     main.append(ball);
 }
-function randNum(max, min){
+function randNum(min, max){
     return Math.round(Math.random()*(max-min)+min);
 }
 for(let i=0; i<15; i++){
